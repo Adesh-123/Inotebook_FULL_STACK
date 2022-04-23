@@ -1,0 +1,39 @@
+.big_box{
+    border-radius: 10px;
+}
+.small_box{
+    border-radius: 10px;
+    color: black;
+    -webkit-box-shadow: -1px 5px 60px 30px rgba(255,255,255,0.2);
+    -moz-box-shadow: -1px 5px 60px 30px rgba(255,255,255,0.2);
+    box-shadow: -1px 5px 60px 30px rgba(255,255,255,0.2);
+}
+.notes_box{
+    background-color: rgb(235, 221, 210);
+}
+.heading_line{
+    display: flex;
+    justify-content: space-between;
+}
+.view_btn{
+    border: none;
+    border-radius: 10px; 
+}
+.view_btn:hover{
+    background-color: rgb(14, 35, 198);
+    color: white;
+}
+.edit_icon{
+    font-size: 18px;
+}
+.edit_icon:hover{
+    color:blue;
+}
+.delete_btn{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+.delete_btn :hover{
+    color: red;
+}
